@@ -1,0 +1,6 @@
+{
+  "usuarios": [
+    { "email": "ismaelbc@bnb.gov.br", "role": "teacher"}
+    ,{ "email": "camilamarinhom@gmail.com", "role": "student" }
+  ]
+}
