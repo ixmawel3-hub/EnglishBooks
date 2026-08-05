@@ -3,5 +3,7 @@
     { "email": "ismaelbc@bnb.gov.br", "role": "teacher"}
     ,{ "email": "camilamarinhom@gmail.com", "role": "student" }
     ,{ "email": "jefrix.arias@tecnacional.edu.ni", "role": "teacher" }
+    ,{ "email": "test@mail.com", "role": "teacher" }
+
   ]
 }
