@@ -1,6 +1,6 @@
 :root {
   --primary: #022272;
-  --primary-hover: #013b8a;
+  --primary-hover: #ffffff;
   --on-primary: #ffffff;
 }
 
@@ -20,7 +20,7 @@ body { background: #f8fafc; color: #07263f; font-family: system-ui, -apple-syste
   box-shadow: 0 6px 18px rgba(2,34,114,0.08);
   transition: background-color 150ms ease, transform 80ms ease;
 }
-.btn-main:hover, .btn-main:focus {
+.btn-main:hover {
   background-color: var(--primary-hover);
   border-color: var(--primary-hover);
   color: var(--on-primary);
@@ -28,25 +28,6 @@ body { background: #f8fafc; color: #07263f; font-family: system-ui, -apple-syste
 .btn-main:active {
   transform: translateY(1px);
 }
-
-.btn-main2 {
-  background-color: #eb142e;
-  border-color: #eb142e;
-  color: var(--on-primary);
-  padding: 0.75rem 1rem;
-  font-weight: 600;
-  box-shadow: 0 6px 18px rgba(2,34,114,0.08);
-  transition: background-color 150ms ease, transform 80ms ease;
-}
-.btn-main2:hover, .btn-main:focus {
-  background-color: #ea344a;
-  border-color: #ea344a;
-  color: var(--on-primary);
-}
-.btn-main2:active {
-  transform: translateY(1px);
-}
-
 
 /* #eb142e */
 /* Make button fill the column height nicely */
