@@ -67,10 +67,6 @@ body { background: #f8fafc; color: #07263f; font-family: system-ui, -apple-syste
 /* Make button fill the column height nicely */
 .d-grid .btn-main { width: 100%; }
 
-@media (max-width: 480px) {
-  .site-logo { width: 110px; }
-}
-
 /* Book card styles */
 .book-card { border-radius: 12px; overflow: hidden; box-shadow: 0 6px 18px rgba(2,34,114,0.06); background: #fff; }
 .book-card .card-img-top { width: 100%; height: 220px; object-fit: cover; object-position: center var(--card-img-pos); display: block; }
@@ -80,6 +76,19 @@ body { background: #f8fafc; color: #07263f; font-family: system-ui, -apple-syste
 
 @media (max-width: 480px) {
   :root { --card-img-pos: 0; }
+  .container { padding-right: 1rem; padding-left: 1rem; }
   .site-logo { width: 110px; }
+  .series-accordion { margin-top: 1rem; border-radius: 12px; }
+  .series-accordion summary {
+    min-height: 4.25rem;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    line-height: 1.35;
+    gap: 1rem;
+  }
+  .series-accordion summary::after { flex: 0 0 0.65rem; }
+  .links { padding: 0.9rem; }
   .book-card .card-img-top { height: 160px; }
+  .book-card .card-body { padding: 0.65rem; }
+  .book-card .card-title { font-size: 0.9rem; line-height: 1.3; }
 }
